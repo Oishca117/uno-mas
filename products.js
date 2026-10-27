@@ -3,7 +3,7 @@ const products = [
     name:"Light-Roast Coffee",
     description: "Fruity flavors, bright,sweet ending ", 
     price:20,
-    image: "https://placehold.co/300x300",
+    image: "./images/lightroast-coffee.jpg",
     category: "coffee",
     featured:true
 },
@@ -11,7 +11,7 @@ const products = [
     name:"Medium-Roast Coffee",
     description: "Caramel and brown sugar notes, mild citrus notes, nutty and chocalatey", 
     price:20,
-    image: "https://placehold.co/300x300",
+    image: "./images/mediumroast-coffee.jpg",
     category: "coffee",
     featured:true
 },
@@ -19,7 +19,7 @@ const products = [
     name:"Dark-Roast Coffee",
     description: "Dark Chocolate, balanced flavors, brown sugar", 
     price:20,
-    image: "https://placehold.co/300x300",
+    image: "./images/darkroast-coffee.jpg",
     category: "coffee",
     featured:true
 },
@@ -27,7 +27,7 @@ const products = [
     name:"Entry Level Grinder",
     description: "Entry level coffee grinder for home drip", 
     price:45,
-    image: "https://placehold.co/300x300",
+    image: "./images/entry-grinder.jpg",
     category: "grinder",
     featured:true
 },
@@ -35,7 +35,7 @@ const products = [
     name:"Mid-Level Coffee Grinder",
     description: "Adjustable grind settings for the perfect cup", 
     price:99,
-    image: "https://placehold.co/300x300",
+    image: "./images/mid-grinder.jpg",
     category: "grinder",
     featured:true
 },
@@ -43,7 +43,7 @@ const products = [
     name:"Enthusiast-Level Coffee Grinder",
     description: "Perfect for fine tuning level grinding to achieve cafe level coffee at home", 
     price: 200,
-    image: "https://placehold.co/300x300",
+    image: "./images/top-grinder.jpg",
     category: "grinder",
     featured:true
 },
@@ -51,7 +51,7 @@ const products = [
     name:"Entry-level coffee scale",
     description: "Entry level scale to achive drip ratios", 
     price:45,
-    image: "https://placehold.co/300x300",
+    image: "./images/entry-scale.jpg",
     category: "scale",
     featured:true
 },
@@ -59,7 +59,7 @@ const products = [
     name:"Mid level coffee scale",
     description: "Multiple unit measurements, better for more precise coffee recipes", 
     price:75,
-    image: "https://placehold.co/300x300",
+    image: "./images/mid-scale.jpg",
     category: "scale",
     featured:true
 },
@@ -67,7 +67,7 @@ const products = [
     name:"Enthusiast Coffee Scale",
     description: "Top tier coffee scale for the most accurate coffee cup", 
     price:120,
-    image: "https://placehold.co/300x300",
+    image: "./images/high-end-scale.jpg",
     category: "scale",
     featured:true
 },
@@ -75,7 +75,7 @@ const products = [
     name:"Drip Coffee Brewer",
     description: "Our recommended drip brewing machine for home brew", 
     price:60,
-    image: "https://placehold.co/300x300",
+    image: "./images/drip-maker.jpg",
     category: "brew-method",
     featured:true
 },
@@ -83,7 +83,7 @@ const products = [
     name:"Pour-Overs",
     description: "A more personal cup of coffee, only for the serious caffeine fiends", 
     price:75,
-    image: "https://placehold.co/300x300",
+    image: "./images/pourover.jpg",
     category: "brew-method",
     featured:true
 },
@@ -91,7 +91,7 @@ const products = [
     name:"Espresso Machine",
     description: "For the ultimate caffiene addicts", 
     price:2000,
-    image: "https://placehold.co/300x300",
+    image: "./images/espresso-machine.jpg",
     category: "brew-method",
     featured:true
 }

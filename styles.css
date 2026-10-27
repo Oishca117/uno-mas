@@ -1,0 +1,33 @@
+.product-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.featured-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: .5rem;
+    aspect-ratio: 3 / 4;
+    background-size: cover;
+}
+
+.product-info{
+    background-color: rgba(255,255,255,.5);
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    justify-content: space-between;
+    
+}
+
+.product-info h4,
+.product-info p {
+    margin: 0;
+}
+
+#featured-section{
+    max-width: 900px;
+}
