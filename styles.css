@@ -1,3 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #E5D8C5;
+}
+
+body {
+    background-color: #F5F0E8;
+    color: #30251F;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Playfair Display", serif;
+}
+
+section {
+    border-bottom: 1px solid #E5D8C5;
+}
+
+.hero-section {
+    display: grid;
+    grid-template-columns: 1.1fr .9fr;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 4rem 6%;
+    width: 100%;
+}
+
+.hero-content {
+    letter-spacing: 1.5px;
+}
+
+.hero-img {
+    width: 300px;
+    height: auto;
+    border-radius: 6px;
+}
+
+.cta-link {
+    display: inline-block;
+    background-color: #8A5A42;
+    color: #F5F0E8;
+    padding: 0.9rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+}
+
+.navigation-bar {
+    display: flex;
+    gap: 50px;
+    letter-spacing: 2.5px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #30251F;
+
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    background-color: #68412F;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
 .product-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -67,7 +148,13 @@
 
 .cta-link {
     grid-column: 2;
-    grid-row: 3
+    grid-row: 3;
+    color: #30251F;
+    text-decoration: none;
+}
+
+.cta-link:hover {
+    text-decoration: underline;
 }
 
 .card-paragraphs {
@@ -81,6 +168,8 @@
     align-items: center;
     justify-content: center;
 }
+
+
 
 footer {
     display: flex;
